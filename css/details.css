@@ -1,3 +1,5 @@
+@import url("global.css");
+
 #product-details {
     padding: 20px 0;
 }
@@ -17,17 +19,17 @@
 }
 
 .product-details-bottom h3{
-    color: #0CAF1D;
+    color: var(--dsc-color-font-secondary);
     font-size: 20px;
 }
 
 .product-details-bottom h4{
-    color: #636363;
+    color: var(--dsc-color-font-primary);
     font-size: 12px;
 }
 
 .product-details-bottom p{
-    color: #636363;
+    color: var(--dsc-color-font-primary);
     font-size: 12px;
     margin: 10px 0;
 }
@@ -40,8 +42,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #636363;
-    color: #FFF;
+    background-color: var(--dsc-color-bg-tertiary);
+    color: var(--dsc-color-font-tertiary);
     height: 30px;
     font-size: 12px;
     font-weight: 700;
