@@ -20,6 +20,8 @@
     --dsc-color-error: #f33;
 }
 
+/* ----- css reset ----- */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -30,6 +32,20 @@
 html, body {
     background-color: var(--dsc-color-bg-primary);
 }
+
+/* ----- generic styles ----- */
+
+.dsc-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;  
+}
+
+.dsc-mb20 {
+    margin-bottom: 20px;
+}
+
+/* ----- header styles ----- */
 
 header {
     display: flex;
@@ -45,30 +61,33 @@ nav {
     color: var(--dsc-color-font-primary);
 }
 
+nav h1 {
+    font-size: 24px;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
 a, a:hover {
     text-decoration: none;
     color: unset;
 }
 
-.dsc-mb20 {
-    margin-bottom: 20px;
-}
-
-.dsc-line-bottom {
-    border-bottom: 1px solid var(--dsc-color-card-border);
-}
-
-.dsc-container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;  
-}
+/* ----- card styles ----- */
 
 .dsc-card {
     background-color: var(--dsc-color-card-bg);
     border: 1px solid var(--dsc-color-card-border);
     border-radius: 4px;
 }
+
+.dsc-line-bottom {
+    border-bottom: 1px solid var(--dsc-color-card-border);
+}
+
+/* ----- button styles ----- */
 
 .dsc-btn-page-container {
     display: grid;
