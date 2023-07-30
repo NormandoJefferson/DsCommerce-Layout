@@ -50,33 +50,33 @@ a, a:hover {
     color: unset;
 }
 
-.mb20 {
+.dsc-mb20 {
     margin-bottom: 20px;
 }
 
-.line-bottom {
+.dsc-line-bottom {
     border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
-.container {
+.dsc-container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;  
 }
 
-.card {
+.dsc-card {
     background-color: var(--dsc-color-card-bg);
     border: 1px solid var(--dsc-color-card-border);
     border-radius: 4px;
 }
 
-.btn-page-container {
+.dsc-btn-page-container {
     display: grid;
     grid-gap: 20px;
     width: 220px;
 }
 
-.btn {
+.dsc-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,12 +86,12 @@ a, a:hover {
     border-radius: 4px; 
 }
 
-.btn-blue {
+.dsc-btn-blue {
     background-color: var(--dsc-color-btn-primary);
     color: var(--dsc-color-btn-inverse);
 }
 
-.btn-white {
+.dsc-btn-white {
     background-color: var(--dsc-color-btn-inverse);
     color: var(--dsc-color-btn-primary);
     border: 1px solid var(--dsc-color-btn-primary);
