@@ -251,6 +251,24 @@ a, a:hover {
     padding-left: 4px;
 } 
 
+.dsc-select option {
+    color: var(--dsc-color-font-primary);
+}
+
+.dsc-select:invalid {
+    color: var(--dsc-color-font-placeholder);
+}
+
+.dsc-select option[disabled] {
+    display: none;
+}
+
+.dsc-textarea {
+    resize: none;
+    height: 128px;
+    padding-top: 10px;
+}
+
 @media(min-width: 576px) {
     .dsc-form h2 {
         font-size: 24px;
